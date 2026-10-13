@@ -1,0 +1,28 @@
+# Credenciales y secretos
+*.key
+*.pem
+id_rsa*
+id_ed25519*
+.env
+*.token
+secrets*
+*vault-pass*
+.ansible/
+
+# Imagenes, discos y copias
+*.iso
+*.qcow2
+*.vmdk
+*.raw
+*.img
+*.vma
+*.vma.zst
+*.tar.gz
+*.zip
+*.bak
+
+# Locales
+.vscode/
+*.swp
+*~
+.DS_Store
