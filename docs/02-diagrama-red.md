@@ -19,9 +19,9 @@ Modalidad: **B, Proxmox virtualizado en VirtualBox**. Nodo: `pve-saulean`.
 
 | Elemento | Nombre | IP | Función | Recursos |
 | --- | --- | --- | --- | --- |
-| Nodo Proxmox | `pve-saulean` | `10.0.2.15/24` (vmbr0) y `192.168.0.10/24` (vmbr1) | Hipervisor, gateway y NAT del laboratorio | 2 vCPU, 6-8 GB RAM, 80 GB (según Fase 1) |
-| Servidor ASO | `srv-aso` | `192.168.0.20/24` | Servicio principal (Samba con ACL) | 1-2 vCPU, 1-2 GB RAM |
-| Cliente | `cli-linux` | `192.168.0.30/24` | Pruebas | 1 vCPU, 512 MB-1 GB RAM |
+| Nodo Proxmox | `pve-saulean` | `10.0.2.15/24` (vmbr0) y `192.168.0.10/24` (vmbr1) | Hipervisor, gateway y NAT del laboratorio | 2 vCPU, 4 GB RAM, 80 GB (según Fase 1) |
+| Servidor ASO | `srv-aso` | `192.168.0.20/24` | Servicio principal (Samba con ACL) | 1-2 vCPU, 1 GB RAM |
+| Cliente | `cli-linux` | `192.168.0.30/24` | Pruebas | 1 vCPU, 512 MB RAM |
 
 ## 3. Diagrama de red
 
