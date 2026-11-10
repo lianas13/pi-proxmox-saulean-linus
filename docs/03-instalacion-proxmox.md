@@ -40,12 +40,6 @@ https://IP_DEL_SERVIDOR:8006
 
 Se inició sesión utilizando el usuario `root` y la contraseña configurada durante la instalación, seleccionando el método de autenticación **Linux PAM**.
 
-### Evidencia 1 — Panel de Proxmox VE
-
-La siguiente captura muestra el acceso a la interfaz web de administración de Proxmox VE.
-
-![Panel principal de Proxmox VE](evidencias/capturas-o-salidas/03-panel-proxmox.png)
-
 ## 5. Comprobación de la instalación
 
 Tras completar la instalación y acceder a la interfaz web, se realizaron comprobaciones desde la terminal del servidor mediante los siguientes comandos:
@@ -56,12 +50,6 @@ ip -br addr
 pveversion
 df -h
 ```
-
-### Evidencia 2 — Comprobaciones desde la terminal
-
-La siguiente captura recoge conjuntamente la salida de los cuatro comandos ejecutados.
-
-![Comprobaciones de Proxmox VE](evidencias/capturas-o-salidas/03-comandos-proxmox.png)
 
 ## 6. Conclusión
 
