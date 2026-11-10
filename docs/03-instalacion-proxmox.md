@@ -44,7 +44,7 @@ Se inició sesión utilizando el usuario `root` y la contraseña configurada dur
 
 La siguiente captura muestra el acceso a la interfaz web de administración de Proxmox VE.
 
-![Panel principal de Proxmox VE](../evidencias/03-panel-proxmox.png)
+![Panel principal de Proxmox VE](evidencias/capturas-o-salidas/03-panel-proxmox.png)
 
 ## 5. Comprobación de la instalación
 
@@ -61,7 +61,7 @@ df -h
 
 La siguiente captura recoge conjuntamente la salida de los cuatro comandos ejecutados.
 
-![Comprobaciones de Proxmox VE](../evidencias/03-comandos-proxmox.png)
+![Comprobaciones de Proxmox VE](evidencias/capturas-o-salidas/03-comandos-proxmox.png)
 
 ## 6. Conclusión
 
